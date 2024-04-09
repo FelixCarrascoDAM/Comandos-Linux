@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+	<meta name="author" content="Irene García">
+	<title>Comando grep</title>
+	<style>
+   	body{background-color: black; color: white; border: 1px solid green; border-radius: 10px; padding: 10px;}
+   	h1{font-size: 72px; text-align: center; text-shadow: 2px 2px 4px greenyellow; border: 1px green solid; border-radius: 15px;}
+    	</style>
+</head>
+<body>
+	<h1>Grep</h1>
+	<p>Se trata de un seleccionador de filas. Nos permite buscar palabras o cadenas de texto en archivos o en la entrada estándar de la terminal.
+	Cuando localiza lo que se está buscando muestra las líneas completas que contienen esa información específica.
+	<br><br>
+	Sus opciones más importantes son:
+	<ul>
+		<li>-i: la búsqueda no distinguirá entre mayúsculas y minúsculas. Ejemplo: grep -i "mensaje" archivo.txt</li>
+		<li>-c: solo mostrará el número de líneas que coinciden con el patrón buscado. Ejemplo: grep -c "mensaje" archivo.txt</li>
+		<li>-E: Esta opción permite usar expresiones regulares para buscar patrones más complejos. Ejemplo: grep -E "[0-9]{3}-[0-9]{3}-[0-9]{4}" archivo.txt</li>
+		<li>-n: Esta opción muestra el número de línea de cada línea que coincide con el patrón de búsqueda. Ejemplo: grep -n "hola" archivo.txt</li>
+		<li>-v: con esta opción, se nos muestran las líneas que no coinciden con el patrón que hemos buscado</li>
+		<li>-r: habilita la búsqueda recursiva en el directorio actual</li>
+	</ul>
+	</p>
+</body>
+</html>
