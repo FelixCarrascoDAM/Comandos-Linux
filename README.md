@@ -1,5 +1,5 @@
 Explicacion de tres de los principales comandos de Linux, explicación y ejemplos:
 
-- CHMOD [CHMOD]()
+- [CHMOD](https://github.com/FelixCarrascoDAM/Comandos-Linux/blob/main/chmod.html)
 - FIND 
 - GREP 
